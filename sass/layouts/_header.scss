@@ -1,0 +1,29 @@
+.header__items {
+  display: flex;
+  align-items: center;
+}
+
+.header__item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: $primary-text-color;
+
+  &-contact {
+    margin-left: auto;
+  }
+}
+
+.header__item-logo {
+  max-width: 237px;
+  width: 100%;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}

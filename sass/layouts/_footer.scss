@@ -1,0 +1,99 @@
+footer {
+  background-color: $footer-bcg-color;
+}
+
+.footer__flex {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.footer__item {
+  display: flex;
+  flex-direction: column;
+
+  &.is--sudscribe {
+    margin-left: auto;
+  }
+
+  &.is--address {
+    margin-right: 69px;
+  }
+}
+
+.logo-footer {
+  margin-bottom: 20px;
+}
+
+.footer__email {
+  margin-bottom: 9px;
+}
+
+.footer__email,
+.footer__phone {
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__address {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $primary-white-color;
+}
+
+.address__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $primary-white-color;
+  display: inline-block;
+  margin-bottom: 9px;
+}
+
+.join__text,
+.subscribe__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: $primary-white-color;
+  margin-bottom: 21px;
+}
+
+.subscribe__container {
+  display: flex;
+}
+
+.subscribe__container-input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 15px 16px;
+  margin-right: 12px;
+  width: 358px;
+  height: 50px;
+  background-color: $footer-bcg-color;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+input:focus::-webkit-input-placeholder {
+  text-indent: 500px;
+  transition: text-indent 0.3s ease;
+}
+
+:focus::-moz-placeholder {
+  color: transparent;
+}

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>hw7-БЭМ</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/portfolio.min.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <ul class="header__items">
+          <li class="header__item header__item-logo">
+            <a href="" class="logo">
+              <img src="./img/logo.svg" alt="Web Studio" />
+            </a>
+          </li>
+          <li class="header__item header__item-nav">
+            <nav class="nav">
+              <ul class="nav__items">
+                <li class="nav__item">
+                  <a href="index.html" class="nav__link">Студия</a>
+                </li>
+                <li class="nav__item">
+                  <a href="portfolio.html" class="nav__link is--current"
+                    >Портфолио</a
+                  >
+                </li>
+                <li class="nav__item">
+                  <a href="" class="nav__link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </li>
+          <li class="header__item header__item-contact">
+            <ul class="header-list">
+              <li class="list__item">
+                <a class="list__link" href="mailto:info@devstudio.com">
+                  <svg class="list__link-icon--email" width="16" height="11.2">
+                    <use xlink:href="./img/symbol-defs.svg#icon-email"></use>
+                  </svg>
+                  <span class="list__item-text">info@devstudio.com</span>
+                </a>
+              </li>
+              <li class="list__item">
+                <a class="list__link" href="tel:+380961111111">
+                  <svg class="list__link-icon--phone" width="10" height="15">
+                    <use xlink:href="./img/symbol-defs.svg#icon-phone"></use>
+                  </svg>
+                  <span class="list__item-text">+38 096 111 11 11</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="layout__sect portfolio">
+        <div class="container">
+          <ul class="list">
+            <li class="list__item-portfolio">
+              <button class="list__button is--current">Все</button>
+            </li>
+            <li class="list__item-portfolio">
+              <button class="list__button">Веб-сайты</button>
+            </li>
+            <li class="list__item-portfolio">
+              <button class="list__button">Приложения</button>
+            </li>
+            <li class="list__item-portfolio">
+              <button class="list__button">Дизайн</button>
+            </li>
+            <li class="list__item-portfolio">
+              <button class="list__button">Маркетинг</button>
+            </li>
+          </ul>
+
+          <ul class="projects-list">
+            <li class="projects-list__item">
+              <a href="#" class="projects-list__link">
+                <div class="projects-list__thumb">
+                  <img
+                    src="./img/technokryak.jpg"
+                    alt="ноутбук"
+                    width="370"
+                    height="294"
+                    class="projects-list__img"
+                  />
+                  <div class="overlay">
+                    <p class="projects-list__meta">
+                      Технокряк это современная площадка распространения
+                      коронавируса. Компании используют эту платформу для
+                      цифрового шпионажа и атак на защищённые сервера
+                      конкурентов.
+                    </p>
+                  </div>
+                </div>
+                <div class="projects-list__text">
+                  <p class="projects-list__title">Технокряк</p>
+                  <p class="projects-list__detail">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-list__item">
+              <a href="#" class="projects-list__link">
+                <div class="projects-list__thumb">
+                  <img
+                    src="./img/new-orlean-gs.jpg"
+                    alt="два баскетболиста"
+                    width="370"
+                    height="294"
+                    class="projects-list__img"
+                  />
+                  <div class="overlay">
+                    <p class="projects-list__meta">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Iure numquam repellat voluptates facere ipsa qui nulla
+                      mollitia!
+                    </p>
+                  </div>
+                </div>
+                <div class="projects-list__text">
+                  <p class="projects-list__title">
+                    Постер New Orlean vs Golden Star
+                  </p>
+                  <p class="projects-list__detail">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-list__item">
+              <a href="#" class="projects-list__link">
+                <div class="projects-list__thumb">
+                  <img
+                    src="./img/seafood.jpg"
+                    alt="лосось"
+                    width="370"
+                    height="294"
+                    class="projects-list__img"
+                  />
+                  <div class="overlay">
+                    <p class="projects-list__meta">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Iure numquam repellat voluptates facere ipsa qui nulla
+                      mollitia!
+                    </p>
+                  </div>
+                </div>
+                <div class="projects-list__text">
+                  <p class="projects-list__title">Ресторан Seafood</p>
+                  <p class="projects-list__detail">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-list__item">
+              <a href="#" class="projects-list__link">
+                <div class="projects-list__thumb">
+                  <img
+                    src="./img/prime.jpg"
+                    alt="наушники"
+                    width="370"
+                    height="294"
+                    class="projects-list__img"
+                  />
+                  <div class="overlay">
+                    <p class="projects-list__meta">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Iure numquam repellat voluptates facere ipsa qui nulla
+                      mollitia!
+                    </p>
+                  </div>
+                </div>
+                <div class="projects-list__text">
+                  <p class="projects-list__title">Проект Prime</p>
+                  <p class="projects-list__detail">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-list__item">
+              <a href="#" class="projects-list__link">
+                <div class="projects-list__thumb">
+                  <img
+                    src="./img/boxes.jpg"
+                    alt="две коробки"
+                    width="370"
+                    height="294"
+                    class="projects-list__img"
+                  />
+                  <div class="overlay">
+                    <p class="projects-list__meta">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Iure numquam repellat voluptates facere ipsa qui nulla
+                      mollitia!
+                    </p>
+                  </div>
+                </div>
+                <div class="projects-list__text">
+                  <p class="projects-list__title">Проект Boxes</p>
+                  <p class="projects-list__detail">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-list__item">
+              <a href="#" class="projects-list__link">
+                <div class="projects-list__thumb">
+                  <img
+                    src="./img/inspiration.jpg"
+                    alt="аймак"
+                    width="370"
+                    height="294"
+                    class="projects-list__img"
+                  />
+                  <div class="overlay">
+                    <p class="projects-list__meta">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Iure numquam repellat voluptates facere ipsa qui nulla
+                      mollitia!
+                    </p>
+                  </div>
+                </div>
+                <div class="projects-list__text">
+                  <p class="projects-list__title">Inspiration has no Borders</p>
+                  <p class="projects-list__detail">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-list__item">
+              <a href="#" class="projects-list__link">
+                <div class="projects-list__thumb">
+                  <img
+                    src="./img/limited-edition.jpg"
+                    alt="открытая книга"
+                    width="370"
+                    height="294"
+                    class="projects-list__img"
+                  />
+                  <div class="overlay">
+                    <p class="projects-list__meta">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Iure numquam repellat voluptates facere ipsa qui nulla
+                      mollitia!
+                    </p>
+                  </div>
+                </div>
+                <div class="projects-list__text">
+                  <p class="projects-list__title">Издание Limited Edition</p>
+                  <p class="projects-list__detail">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-list__item">
+              <a href="#" class="projects-list__link">
+                <div class="projects-list__thumb">
+                  <img
+                    src="./img/lab.jpg"
+                    alt="бирка"
+                    width="370"
+                    height="294"
+                    class="projects-list__img"
+                  />
+                  <div class="overlay">
+                    <p class="projects-list__meta">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Iure numquam repellat voluptates facere ipsa qui nulla
+                      mollitia!
+                    </p>
+                  </div>
+                </div>
+                <div class="projects-list__text">
+                  <p class="projects-list__title">Проект LAB</p>
+                  <p class="projects-list__detail">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="projects-list__item">
+              <a href="#" class="projects-list__link">
+                <div class="projects-list__thumb">
+                  <img
+                    src="./img/growing-business.jpg"
+                    alt="две руки на ноутбуке"
+                    width="370"
+                    height="294"
+                    class="projects-list__img"
+                  />
+                  <div class="overlay">
+                    <p class="projects-list__meta">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Iure numquam repellat voluptates facere ipsa qui nulla
+                      mollitia!
+                    </p>
+                  </div>
+                </div>
+                <div class="projects-list__text">
+                  <p class="projects-list__title">Growing Business</p>
+                  <p class="projects-list__detail">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container is--footer">
+        <div class="footer__flex">
+          <div class="footer__item is--address">
+            <a href="#" class="logo logo-footer">
+              <img src="./img/logo-foot.svg" alt="Web Studio" />
+            </a>
+            <address class="address">
+              <span class="address__text">г. Киев, пр-т Леси Украинки, 26</span>
+            </address>
+            <a href="mailto:info@devstudio.com" class="footer__email"
+              >info@devstudio.com</a
+            >
+            <a href="tel:+380961111111" class="footer__phone"
+              >+38 096 111 11 11</a
+            >
+          </div>
+          <div class="footer__item is--join">
+            <b class="join__text"> Присоединяйтесь </b>
+            <ul class="socialmedia">
+              <li class="socialmedia__item">
+                <a
+                  href=""
+                  aria-label="Instagram"
+                  class="socialmedia__link second"
+                >
+                  <svg class="socialmedia-icon" width="20" height="20">
+                    <use
+                      xlink:href="./img/symbol-defs.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="socialmedia__item">
+                <a
+                  href=""
+                  aria-label="Twitter"
+                  class="socialmedia__link second"
+                >
+                  <svg class="socialmedia-icon" width="20" height="20">
+                    <use xlink:href="./img/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="socialmedia__item">
+                <a
+                  href=""
+                  aria-label="Facebook"
+                  class="socialmedia__link second"
+                >
+                  <svg class="socialmedia-icon" width="20" height="20">
+                    <use xlink:href="./img/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="socialmedia__item">
+                <a
+                  href=""
+                  aria-label="LinkedIn"
+                  class="socialmedia__link second"
+                >
+                  <svg class="socialmedia-icon" width="20" height="20">
+                    <use xlink:href="./img/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__item is--sudscribe">
+            <b class="subscribe__text">Подпишитесь на рассылку</b>
+            <form class="subscribe__container">
+              <input
+                class="subscribe__container-input"
+                type="email"
+                name="name"
+                id="email"
+                placeholder="E-mail"
+              />
+              <button class="footer__button">
+                <span>Подписаться</span>
+                <svg class="footer__button-icon" width="24" height="24">
+                  <use xlink:href="./img/symbol-defs.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Авторские права -->
+      <!-- <div class="signature">
+        <p class="signature__text">2020 | Developed by GoIT Students</p>
+      </div> -->
+    </footer>
+  </body>
+</html>

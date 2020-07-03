@@ -1,0 +1,16 @@
+.layout__sect {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  &.portfolio {
+    border: 1px solid #ececec;
+  }
+
+  &.is--no-padding-top {
+    padding-top: 0;
+  }
+
+  &.is--background {
+    background-color: $secondary-background-color;
+  }
+}
