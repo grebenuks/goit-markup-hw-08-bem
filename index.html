@@ -18,7 +18,7 @@
   <body>
     <header class="header">
       <div class="container header__items">
-        <a href="./index.html" class="logo">
+        <a href="./index.html" class="logo header__logo">
           <img src="./img/logo.svg" alt="Web Studio" />
         </a>
         <button class="menu__button" data-menu-button>
@@ -41,7 +41,7 @@
               </li>
             </ul>
           </nav>
-          <ul class="header-list">
+          <ul class="header__list">
             <li class="list__item">
               <a class="list__link" href="mailto:info@devstudio.com">
                 <svg class="list__link-icon is--email" width="16" height="11.2">
@@ -135,7 +135,7 @@
         <div class="container">
           <h2 class="container__title is--main">Чем мы занимаемся</h2>
           <ul class="container__items">
-            <li class="container__item">
+            <li class="container__item container__item--desktop">
               <div class="container__item-img">
                 <img
                   src="./img/nout.jpg"
@@ -150,7 +150,7 @@
                 </h3>
               </div>
             </li>
-            <li class="container__item">
+            <li class="container__item container__item--desktop">
               <div class="container__item-img">
                 <img
                   src="./img/iphone.jpg"
@@ -164,7 +164,7 @@
                 </h3>
               </div>
             </li>
-            <li class="container__item">
+            <li class="container__item container__item--desktop">
               <div class="container__item-img">
                 <img
                   src="./img/mac.jpg"
@@ -193,8 +193,6 @@
                   <img
                     src="./img/john.jpg"
                     alt="фото Николая"
-                    width="270"
-                    height="260"
                     class="container__photo"
                   />
                 </div>
@@ -268,8 +266,6 @@
                   <img
                     src="./img/marta.jpg"
                     alt="фото Ольги"
-                    width="270"
-                    height="260"
                     class="container__photo"
                   />
                 </div>
@@ -343,8 +339,6 @@
                   <img
                     src="./img/robert.jpg"
                     alt="фото Андрея"
-                    width="270"
-                    height="260"
                     class="container__photo"
                   />
                 </div>
@@ -418,8 +412,6 @@
                   <img
                     src="./img/martin.jpg"
                     alt="фото Ивана"
-                    width="270"
-                    height="260"
                     class="container__photo"
                   />
                 </div>
@@ -495,42 +487,42 @@
           <h3 class="container__title is--main">Постоянные клиенты</h3>
           <ul class="container__items is--second">
             <li class="container__item client">
-              <a href="#" class="container__link">
+              <a href="#" class="client__link">
                 <svg class="container__icon" width="44.27" height="49.23">
                   <use xlink:href="./img/symbol-defs.svg#icon-company1"></use>
                 </svg>
               </a>
             </li>
             <li class="container__item client">
-              <a href="#" class="container__link">
+              <a href="#" class="client__link">
                 <svg class="container__icon" width="40" height="52">
                   <use xlink:href="./img/symbol-defs.svg#icon-company2"></use>
                 </svg>
               </a>
             </li>
             <li class="container__item client">
-              <a href="#" class="container__link">
+              <a href="#" class="client__link">
                 <svg class="container__icon" width="41" height="42.6">
                   <use xlink:href="./img/symbol-defs.svg#icon-company3"></use>
                 </svg>
               </a>
             </li>
             <li class="container__item client">
-              <a href="#" class="container__link">
+              <a href="#" class="client__link">
                 <svg class="container__icon" width="79.66" height="42.02">
                   <use xlink:href="./img/symbol-defs.svg#icon-company4"></use>
                 </svg>
               </a>
             </li>
             <li class="container__item client">
-              <a href="#" class="container__link">
+              <a href="#" class="client__link">
                 <svg class="container__icon" width="59" height="47">
                   <use xlink:href="./img/symbol-defs.svg#icon-company5"></use>
                 </svg>
               </a>
             </li>
             <li class="container__item client">
-              <a href="#" class="container__link">
+              <a href="#" class="client__link">
                 <svg class="container__icon" width="88.48" height="45.44">
                   <use xlink:href="./img/symbol-defs.svg#icon-company6"></use>
                 </svg>
@@ -546,7 +538,7 @@
         <div class="footer__flex">
           <div class="footer__list">
             <div class="footer__item is--address">
-              <a href="./index.html" class="logo logo-footer">
+              <a href="./index.html" class="logo footer__logo">
                 <img src="./img/logo-foot.svg" alt="Web Studio" />
               </a>
               <address class="address">
