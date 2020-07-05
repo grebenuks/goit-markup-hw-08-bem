@@ -1,0 +1,13 @@
+.logo {
+  align-items: center;
+}
+
+.logo-footer {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    padding: 16px;
+  }
+}

@@ -15,17 +15,14 @@ body {
 }
 
 body {
+  min-width: 480px;
   background-color: $primary-white-color;
   font-family: $main-font;
   font-weight: 400;
   font-size: 14px;
   min-width: 320px;
-  line-height: 1.42;
-  overflow-y: auto;
-  overflow-x: hidden;
+  line-height: 1.71;
   letter-spacing: 0.03em;
-  display: flex;
-  flex-direction: column;
 }
 
 header {
