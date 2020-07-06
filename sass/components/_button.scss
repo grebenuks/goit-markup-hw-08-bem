@@ -46,15 +46,21 @@
 
 .footer__button {
   @extend .button;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 32px;
+  display: inline-block;
   width: 200px;
   height: 50px;
   margin: 0 auto;
+  flex-direction: row;
+  vertical-align: middle;
+  justify-content: center;
+  box-sizing: content-box;
 }
 
-.footer__button-icon {
+.footer__icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+
   margin-left: 10px;
 }

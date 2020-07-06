@@ -42,7 +42,7 @@
             </ul>
           </nav>
           <ul class="header__list">
-            <li class="list__item">
+            <li class="header__item">
               <a class="list__link" href="mailto:info@devstudio.com">
                 <svg class="list__link-icon is--email" width="16" height="11.2">
                   <use xlink:href="./img/symbol-defs.svg#icon-email"></use>
@@ -50,7 +50,7 @@
                 <span class="list__item-text">info@devstudio.com</span>
               </a>
             </li>
-            <li class="list__item">
+            <li class="header__item">
               <a class="list__link" href="tel:+380961111111">
                 <svg class="list__link-icon is--phone" width="10" height="15">
                   <use xlink:href="./img/symbol-defs.svg#icon-phone"></use>
@@ -632,8 +632,8 @@
                 placeholder="E-mail"
               />
               <button type="submit" class="footer__button">
-                <span>Подписаться</span>
-                <svg class="footer__button-icon" width="24" height="24">
+                <span class="footer__button-text">Подписаться</span>
+                <svg class="footer__icon">
                   <use xlink:href="./img/symbol-defs.svg#icon-icon-send"></use>
                 </svg>
               </button>
@@ -706,15 +706,10 @@
             >
           </div>
 
-          <div class="policy">
-            <label class="form__label-policy">
-              <input
-                class="form__input-policy"
-                type="checkbox"
-                name="policy"
-                id="policy"
-              />
-              <span class="policy__icon"></span>
+          <div class="form__field policy">
+            <input class="checkbox" type="checkbox" name="policy" id="policy" />
+            <label class="form__label-policy" for="policy">
+              <span class="checkbox__icon"></span>
               Соглашаюсь с рассылкой и принимаю
               <a href="#" class="policy__link">Условия договора</a>
             </label>

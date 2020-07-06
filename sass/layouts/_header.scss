@@ -20,6 +20,25 @@
     @media screen and (min-width: $tablet) {
       align-items: start;
     }
+    @media screen and (min-width: $desktop) {
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
+  }
+
+  &__item:not(:last-child) {
+    @media screen and (max-width: $tablet) {
+      margin-bottom: 10px;
+    }
+
+    @media screen and (min-width: $tablet) {
+      margin-bottom: 10px;
+    }
+
+    @media screen and (min-width: $desktop) {
+      margin-right: 30px;
+      display: inline-block;
+    }
   }
 
   &__logo {
