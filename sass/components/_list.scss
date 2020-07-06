@@ -101,6 +101,7 @@
     position: relative;
     display: flex;
     overflow: hidden;
+    height: 294px;
   }
 
   &__meta {
@@ -127,5 +128,12 @@
   &__link:focus .overlay {
     opacity: 0.9;
     transform: translateY(0);
+  }
+  &__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: $primary-text-color;
   }
 }
