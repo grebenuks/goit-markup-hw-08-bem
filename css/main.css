@@ -1149,8 +1149,13 @@ textarea {
 }
 
 .layout__sect.is--no-padding-top {
-  display: none;
   padding-top: 0;
+}
+
+@media screen and (max-width: calc(1140px - 1px)) {
+  .layout__sect.is--no-padding-top {
+    display: none;
+  }
 }
 
 .layout__sect.is--background {

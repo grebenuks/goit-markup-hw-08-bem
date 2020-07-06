@@ -7,8 +7,11 @@
   }
 
   &.is--no-padding-top {
-    display: none;
     padding-top: 0;
+
+    @media screen and (max-width: calc(#{$desktop} - 1px)) {
+      display: none;
+    }
   }
 
   &.is--background {
