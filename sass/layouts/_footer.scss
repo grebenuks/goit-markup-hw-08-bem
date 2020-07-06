@@ -125,10 +125,13 @@
   }
 }
 
+// Скрытие placeholder
 input:focus::-webkit-input-placeholder {
+  text-indent: 500px;
   transition: text-indent 0.3s ease;
 }
 
-:focus::-moz-placeholder {
-  color: transparent;
+input:focus::-moz-placeholder {
+  line-height: 100px;
+  transition: line-height 0.5s ease;
 }

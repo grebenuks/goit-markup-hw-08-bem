@@ -1165,12 +1165,11 @@ textarea {
 }
 
 .layout__sect-hero {
-  max-width: 1980px;
-  margin: 0 auto;
+  max-width: 1920px;
+  margin: 80px auto 0;
   text-align: center;
   padding-top: 118px;
   padding-bottom: 118px;
-  margin-top: 80px;
   background-color: #2f303a;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../img/hero-img.jpg);
   background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../img/hero-img.jpg);
@@ -1507,11 +1506,14 @@ textarea {
 }
 
 input:focus::-webkit-input-placeholder {
+  text-indent: 500px;
   -webkit-transition: text-indent 0.3s ease;
   transition: text-indent 0.3s ease;
 }
 
-:focus::-moz-placeholder {
-  color: transparent;
+input:focus::-moz-placeholder {
+  line-height: 100px;
+  -webkit-transition: line-height 0.5s ease;
+  transition: line-height 0.5s ease;
 }
 /*# sourceMappingURL=portfolio.css.map */
