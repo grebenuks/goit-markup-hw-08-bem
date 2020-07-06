@@ -1,6 +1,15 @@
 .list {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
   margin: -4px -4px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+
+  @media screen and (min-width: $tablet) {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    justify-content: center;
+  }
 
   &__link {
     letter-spacing: 0.02em;
@@ -33,11 +42,21 @@
 }
 
 .projects-list {
-  display: flex;
-  flex-wrap: wrap;
   margin: -15px -15px;
+  padding: 0;
+  list-style: none;
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
   &__title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
     color: $title-text-color;
     font-weight: 700;
     font-size: 18px;
@@ -54,8 +73,18 @@
   }
 
   &__item {
-    width: 370px;
-    margin: 15px 15px;
+    padding: 15px;
+
+    @media screen and (min-width: $tablet) {
+      width: calc(100% / 2);
+    }
+
+    @media screen and (min-width: $desktop) {
+      width: calc(100% / 3);
+    }
+
+    margin-left: auto;
+    margin-right: auto;
   }
 
   &__text {
